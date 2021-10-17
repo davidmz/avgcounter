@@ -5,4 +5,4 @@ The counter holds the exponentially (by time) weighted average of all added
 values.
 
 
-See documentation and examples at [pkg.go.dev](https://pkg.go.dev/github.com/davidmz/mustbe)
+See documentation and examples at [pkg.go.dev](https://pkg.go.dev/github.com/davidmz/avgcounter)
