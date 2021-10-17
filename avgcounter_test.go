@@ -18,7 +18,7 @@ func Example() {
 	// Output: 15.450936529200579
 }
 
-func Example_multi() {
+func Example_multi_add() {
 	counter := New(time.Minute)
 
 	for i := 0; i < 600; i++ {
@@ -26,9 +26,9 @@ func Example_multi() {
 		passTime(time.Second)
 	}
 
-	// The result is 42 * exp(-1)
+	// The result about 60 (60 adds/minute)
 	fmt.Println(counter.Value())
-	// Output: 15.450936529200579
+	// Output: 59.49868752358285
 }
 
 func ExampleNew() {
